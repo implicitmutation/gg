@@ -9,6 +9,7 @@
       {
         "id": "tos",
         "type": "boolean",
+        "required": true,
         "name": "Genkit CLI and Developer UI use cookies and similar technologies from Google to deliver and enhance the quality of its services and to analyze usage. Learn more at https://policies.google.com/technologies/cookies"
       }
     ],
