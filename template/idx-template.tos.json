@@ -1,0 +1,30 @@
+{
+    "name": "Genkit",
+    "description": "Build a new web app using Genkit",
+    "categories": [
+      "Web app"
+    ],
+    "icon": "https://www.gstatic.com/monospace/231115/logo_react.svg",
+    "params": [
+      {
+        "id": "language",
+        "type": "enum",
+        "required": true,
+        "name": "Language",
+        "options": {
+          "js": "JavaScript",
+          "go": "Go"
+        }
+      },
+      {
+        "id": "tos",
+        "type": "enum",
+        "required": true,
+        "options": {
+          "true": "I agree"
+        },
+        "name": "Genkit CLI and Developer UI use cookies and similar technologies from Google to deliver and enhance the quality of its services and to analyze usage. Learn more at https://policies.google.com/technologies/cookies"
+      }
+    ],
+    "publisher": "Google LLC"
+  }
