@@ -10,6 +10,7 @@
         "id": "language",
         "type": "enum",
         "required": true,
+        "name": "Language",
         "options": {
           "js": "JavaScript",
           "go": "Go"
